@@ -134,7 +134,14 @@ The interactive dashboard provides:
 - Dynamic slicers for scenario analysis
 
 ## 📁 Dashboard File:
-dashboard/credit_risk_dashboard.pbix
+    The interactive dashboard is included in this repository.
+
+- File: `credit_risk_dashboard.pbix`
+- Screenshot preview available: `Credit_Risk dashboard Screenshot.png`
+
+To view the dashboard:
+1. Download the `.pbix` file
+2. Open it in Power BI Desktop
 
 ## 💡 Business Recommendations
 
