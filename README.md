@@ -61,7 +61,7 @@ This project analyzes loan applicant data to assess credit risk and support data
 
 ## 🧹 Data Cleaning & Preprocessing
 
-- Handled missing values using:
+Handled missing values using:
 
 - Mode for categorical variables
 
