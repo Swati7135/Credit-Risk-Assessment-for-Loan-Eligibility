@@ -1,152 +1,152 @@
 📊 Credit Risk Assessment for Loan Eligibility
 
-End-to-End Data Analytics Project
+### End-to-End Data Analytics Project
 
 🔍 Business Problem
 
 Financial institutions face significant losses due to loan defaults.
 This project analyzes loan applicant data to assess credit risk and support data-driven loan approval decisions while minimizing default risk.
 
-🎯 Business Objectives
+## 🎯 Business Objectives
 
-Identify low-risk and high-risk loan applicants
+- Identify low-risk and high-risk loan applicants
 
-Understand key factors influencing loan approval decisions
+- Understand key factors influencing loan approval decisions
 
-Improve loan approval efficiency
+- Improve loan approval efficiency
 
-Reduce probability of loan default
+-Reduce probability of loan default
 
-❓ Key Business Questions
+## ❓ Key Business Questions
 
-Which factors most strongly influence loan approval?
+- Which factors most strongly influence loan approval?
 
-How does credit history impact approval decisions?
+- How does credit history impact approval decisions?
 
-Are high-income applicants always safe?
+- Are high-income applicants always safe?
 
-Which customer segments are high risk?
+- Which customer segments are high risk?
 
-How can banks optimize loan approval strategies?
+- How can banks optimize loan approval strategies?
 
-🛠 Tools & Technologies
+## 🛠 Tools & Technologies
 
-SQL – Data understanding & validation
+- SQL – Data understanding & validation
 
-Python (Pandas, NumPy) – Data cleaning, EDA, feature engineering
+- Python (Pandas, NumPy) – Data cleaning, EDA, feature engineering
 
-Power BI – Interactive dashboard & data visualization
+- Power BI – Interactive dashboard & data visualization
 
-GitHub – Version control & project documentation
+- GitHub – Version control & project documentation
 
-📂 Dataset Overview
+## 📂 Dataset Overview
 
-Total Records: 614
+- Total Records: 614
 
-Target Variable: loan_status (Y/N)
+- Target Variable: loan_status (Y/N)
 
-Features Include:
+## Features Include:
 
-Applicant & Co-applicant Income
+- Applicant & Co-applicant Income
 
-Loan Amount & Loan Term
+- Loan Amount & Loan Term
 
-Credit History
+- Credit History
 
-Employment Type
+- Employment Type
 
-Property Area
+- Property Area
 
-Education
+- Education
 
-🧹 Data Cleaning & Preprocessing
+## 🧹 Data Cleaning & Preprocessing
 
-Handled missing values using:
+- Handled missing values using:
 
-Mode for categorical variables
+- Mode for categorical variables
 
-Median for numerical variables
+- Median for numerical variables
 
-Ensured:
+## Ensured:
 
-No duplicate loan IDs
+- No duplicate loan IDs
 
-Correct data types
+- Correct data types
 
-Clean, analysis-ready dataset
+- Clean, analysis-ready dataset
 
-🔎 Exploratory Data Analysis (EDA) – Key Insights
+## 🔎 Exploratory Data Analysis (EDA) – Key Insights
 
-Loan approvals are slightly higher than rejections
+- Loan approvals are slightly higher than rejections
 
-Credit history is the strongest approval factor
+- Credit history is the strongest approval factor
 
-High income does not guarantee approval
+- High income does not guarantee approval
 
-Larger loan amounts increase rejection risk
+- Larger loan amounts increase rejection risk
 
-Employment type and property area act as secondary risk indicators
+- Employment type and property area act as secondary risk indicators
 
-🧠 Feature Engineering
+## 🧠 Feature Engineering
 
-Created new meaningful features:
+- Created new meaningful features:
 
-total_income = applicant income + co-applicant income
+## total_income = applicant income + co-applicant income
 
-income_loan_ratio = loan affordability indicator
+## income_loan_ratio = loan affordability indicator
 
 These features improve risk interpretability and business relevance.
 
-⚠️ Customer Risk Segmentation
+## ⚠️ Customer Risk Segmentation
 
 Applicants were segmented into:
 
-Low Risk
+- Low Risk
 
-Medium Risk
+- Medium Risk
 
-High Risk
+- High Risk
 
-Based on:
+## Based on:
 
-Credit history
+-  history
 
-Loan amount
+- Loan amount
 
-Income-to-loan ratio
+- Income-to-loan ratio
 
 This approach mirrors real-world banking decision logic.
 
-📊 Power BI Dashboard
+## 📊 Power BI Dashboard
 
 The interactive dashboard provides:
 
-Executive summary (Total, Approved, Rejected loans)
+- Executive summary (Total, Approved, Rejected loans)
 
-Applicant risk distribution
+- Applicant risk distribution
 
-Impact of credit history on approvals
+- Impact of credit history on approvals
 
-Income vs loan amount analysis
+- Income vs loan amount analysis
 
-Risk-based loan outcome comparison
+- Risk-based loan outcome comparison
 
-Dynamic slicers for scenario analysis
+- Dynamic slicers for scenario analysis
 
-📁 Dashboard File:
+## 📁 Dashboard File:
 dashboard/credit_risk_dashboard.pbix
 
-💡 Business Recommendations
+## 💡 Business Recommendations
 
-Prioritize applicants with strong credit history
+- Prioritize applicants with strong credit history
 
-Apply stricter checks for high loan amounts
+- Apply stricter checks for high loan amounts
 
-Use risk segmentation for differentiated approval strategies
+- Use risk segmentation for differentiated approval strategies
 
-Avoid relying solely on income for approval decisions
+- Avoid relying solely on income for approval decisions
 
-🚀 Project Outcome
+## 🚀 Project Outcome
 
 This project demonstrates a complete data analytics lifecycle, transforming raw banking data into actionable insights and an executive-level dashboard suitable for real-world decision-making.
 
